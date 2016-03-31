@@ -1,5 +1,5 @@
 OCaml 2016 -- The State of the Hump
-============================================
+========================================
 
 Its 2016 and we all know functional programming is the path forward,
 from ReactJS to Elixir, MirageOS to Docker, Facebook flow to Elm, this
@@ -14,18 +14,18 @@ between. It is not a criticism of any one person or organiztion,
 rather it comes from a love of the community and OCaml itself.
 
 Getting to the Next Stage
-===============================
+=============================
 
 Tools like `opam` and `merlin` were desparately needed and got us to
 what past the what I'd call the first hump, but now we need to get
 past the second hump; to capture that group of programmers that just
 need to have a `json` based HTTP request to work (1 line of code in
 Python, at least 10 in OCaml + talk about monads). I'm talking about
-folks that look to introductions to function programming in
+folks that look to introductions to functional programming in
 Python/JavaScript instead of going directly to OCaml.
 
 What's missing for wide spread adoption
-=================================================
+=============================================
 
 Here's the TODO list, order doesn't mean priority.
 
