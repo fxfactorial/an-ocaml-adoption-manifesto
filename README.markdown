@@ -32,7 +32,7 @@ Postgres. This story in OCaml is severly lacking.)
 Here's the TODO list, order doesn't mean priority.
 
 These issues also overlap with why a typical SV startup might hesitate
-to pick OCaml.
+to pick OCaml (Some of these issues are being worked on).
 
 1. An actual ORM. Wrong or right they get stuff done. A nice feature
    would be something that used a PPX extension to generate type safe
@@ -71,4 +71,14 @@ to pick OCaml.
 
 10. The build situation is pretty bad, we have too many build tools
     with no consensus on building code. Explaining all of them at once
-    to programmers coming from interpreted languages is a big time suck.
+    to programmers coming from interpreted languages is a big time
+    suck.
+
+11. Windows support.
+
+Optimism
+=========
+
+The OCaml community is made up of many friendly and incredibly
+talented people. I'm sure we can overcome these difficulties. 2016 is
+going to be OCaml's year, no doubt.
