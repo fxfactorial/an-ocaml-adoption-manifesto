@@ -41,7 +41,8 @@ to pick OCaml (Some of these issues are being worked on).
    SQL and functorized over a backend, starting with
    `Postgresql`. Just hasn't been done. There are things that
    approximate this but they have various short comings in their own
-   way.
+   way. Maybe something like `[@@deriving pg_insert, pg_select]`
+   (thanks `hcarty`).
 
 2. Typical middleware needed for web application backends. We need
    something like `nodejs`'s express. Something that instantly handles
@@ -52,7 +53,8 @@ to pick OCaml (Some of these issues are being worked on).
    most determined hackers stay.
 
 4. A web framework in the spirit of Django or Rails. (And please not
-   something that reachs `Yesod` levels of mental abstraction)
+   something that reachs `Yesod` levels of mental
+   abstraction).
 
 5. `js_of_ocaml` or `bucklescript` bindings to `ReactJS`, that would
    be ideal.
@@ -63,10 +65,11 @@ to pick OCaml (Some of these issues are being worked on).
 7. A friendlier attitude towards web development. Many people still
    think web coding is lame or not serious. That's wrong, web
    programming is amazing and much innovation comes out of web
-   programming.
+   programming. 
 
 8. Core libs like `Lwt` need love and care, simply not enough hands to
-   go around at the moment.
+   go around at the moment and that's a real shame since big projects
+   like `mirage` are built on top of `Lwt`.
    
 9. Marketing. Haskell blows us out of the water in name recognition,
    no reason why we can't have that level of recogition as well.
@@ -78,8 +81,15 @@ to pick OCaml (Some of these issues are being worked on).
 
 11. Windows support.
 
+12. A non-monadic HTTP library, maybe `cohttp.unix`.
+
+13. Multicore.
+
 Optimism
 =========
+
+The more people we can get into OCaml then the more these problems go
+away -> more people means more $$$ and hands.
 
 The OCaml community is made up of many friendly and incredibly
 talented people. I'm sure we can overcome these difficulties. 2016 is
