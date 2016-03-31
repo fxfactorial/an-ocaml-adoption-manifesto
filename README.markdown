@@ -27,10 +27,6 @@ Python/JavaScript instead of going directly to OCaml.
 What's missing for wide spread adoption
 =================================================
 
-(I'm talking about the average Silicon Valley tech startup, companies
-that fundamentally just take JSON requests and persist them to
-Postgres. This story in OCaml is severly lacking.)
-
 Here's the TODO list, order doesn't mean priority.
 
 These issues also overlap with why a typical SV startup might hesitate
