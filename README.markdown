@@ -1,17 +1,17 @@
 OCaml 2016 -- The State of the Hump
 ========================================
 
-Its 2016 and we all know functional programming is the path forward,
-from ReactJS to Elixir, MirageOS to Docker, Facebook flow to Elm, this
+It's 2016 and we all know functional programming is the path forward.
+From ReactJS, Elixir, MirageOS, Docker, and Facebook flow to Elm, this
 style of programming is clearly being widely adopted and needed.
 
 This is my biased viewpoint coming from working in a startup in San
 Francisco and from running the OCaml meetup group in Silicon
-Valley. It's an expression of my frustations from the current
-environment, from speaking to absolute programming beginners to
-experienced JavaScript programmers and every variant of C in
-between. It is not a criticism of any one person or organiztion,
-rather it comes from a love of the community and OCaml itself.
+Valley. It's an expression of my frustations in the current
+environment from speaking to absolute programming beginners to
+experienced JavaScript programmers (and every variant of C in
+between). It is not a criticism of any one person or organization,
+but a critique from a love of the community and OCaml itself.
 
 Getting to the Next Stage
 =============================
@@ -42,35 +42,36 @@ to pick OCaml (Some of these issues are being worked on).
 
 2. Typical middleware needed for web application backends. We need
    something like `nodejs`'s express. Something that instantly handles
-   30k+ connections, like I can in 30 lines of node `JavaScript`.
+   30k+ connections, like I can with 30 lines of `JavaScript` in Node.
 
 3. Documentation, documentation, documentation. We have amazing tools
    like `js_of_ocaml` but the documentation is lacking and only the
    most determined hackers stay.
 
 4. A web framework in the spirit of Django or Rails. (And please not
-   something that reachs `Yesod` levels of mental
+   something that reaches `Yesod` levels of mental
    abstraction).
 
 5. `js_of_ocaml` or `bucklescript` bindings to `ReactJS`, that would
    be ideal.
 
-6. namespaces. This is a problem right now, name something `dispatch.ml`
-   and use a transistive dependency that also defines dispatch. Boom.
+6. Namespaces. This is a problem right now, name something `dispatch.ml`
+   and use a transitive dependency that also defines dispatch. Boom.
    
 7. A friendlier attitude towards web development. Many people still
    think web coding is lame or not serious. That's wrong, web
    programming is amazing and much innovation comes out of web
    programming. 
 
-8. Core libs like `Lwt` need love and care, simply not enough hands to
-   go around at the moment and that's a real shame since big projects
-   like `mirage` are built on top of `Lwt`.
+8. Core libs like `Lwt` need love and care, and there are simply not
+   enough hands to go around at the moment and that's a real shame
+   since big projects like `mirage` are built on top of `Lwt`.
    
 9. Marketing. Haskell blows us out of the water in name recognition,
-   no reason why we can't have that level of recogition as well.
+   and there's no reason why we can't have that level of recogition 
+   as well.
 
-10. The build situation is pretty bad, we have too many build tools
+10. The build situation is pretty bad. We have too many build tools
     with no consensus on building code. Explaining all of them at once
     to programmers coming from interpreted languages is a big time
     suck.
@@ -84,7 +85,7 @@ to pick OCaml (Some of these issues are being worked on).
 Optimism
 =========
 
-The more people we can get into OCaml then the more these problems go
+The more people we can get into OCaml, the more these problems go
 away -> more people means more $$$ and hands.
 
 The OCaml community is made up of many friendly and incredibly
