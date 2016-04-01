@@ -40,47 +40,47 @@ to pick OCaml (Some of these issues are being worked on).
    way. Maybe something like `[@@deriving pg_insert, pg_select]`
    (thanks `hcarty`).
 
-1. Typical middleware needed for web application backends. We need
+2. Typical middleware needed for web application backends. We need
    something like `nodejs`'s express. Something that instantly handles
    30k+ connections, like I can with 30 lines of `JavaScript` in Node.
 
-1. Documentation, documentation, documentation. We have amazing tools
+3. Documentation, documentation, documentation. We have amazing tools
    like `js_of_ocaml` but the documentation is lacking and only the
    most determined hackers stay.
 
-1. A web framework in the spirit of Django or Rails. (And please not
+4. A web framework in the spirit of Django or Rails. (And please not
    something that reaches `Yesod` levels of mental
    abstraction).
 
-1. `js_of_ocaml` or `bucklescript` bindings to `ReactJS`, that would
+5. `js_of_ocaml` or `bucklescript` bindings to `ReactJS`, that would
    be ideal.
 
-1. Namespaces. This is a problem right now, name something `dispatch.ml`
+6. Namespaces. This is a problem right now, name something `dispatch.ml`
    and use a transitive dependency that also defines dispatch. Boom.
 
-1. A friendlier attitude towards web development. Many people still
+7. A friendlier attitude towards web development. Many people still
    think web coding is lame or not serious. That's wrong, web
    programming is amazing and much innovation comes out of web
    programming.
 
-1. Core libs like `Lwt` need love and care, and there are simply not
+8. Core libs like `Lwt` need love and care, and there are simply not
    enough hands to go around at the moment and that's a real shame
    since big projects like `mirage` are built on top of `Lwt`.
 
-1. Marketing. Haskell blows us out of the water in name recognition,
+9. Marketing. Haskell blows us out of the water in name recognition,
    and there's no reason why we can't have that level of recogition
    as well.
 
-1. The build situation is pretty bad. We have too many build tools
+10. The build situation is pretty bad. We have too many build tools
     with no consensus on building code. Explaining all of them at once
     to programmers coming from interpreted languages is a big time
     suck.
 
-1. Windows support.
+11. Windows support.
 
-1. A non-monadic HTTP library, maybe `cohttp.unix`.
+12. A non-monadic HTTP library, maybe `cohttp.unix`.
 
-1. Multicore.
+13. Multicore.
 
 
 Issues Noted by Others (Send a PR to add one!)
@@ -93,10 +93,14 @@ Issues Noted by Others (Send a PR to add one!)
     compiler source to source with an intermediate language between
     Swift, Java and C# could be a solution.
 
-1. IDE support. Decent Intellij Idea or Eclipse plugin would
+2. IDE support. Decent Intellij Idea or Eclipse plugin would
    accelarate the adoption.
 
-1. Related to the web framework note above, a middleware standard similar to Node's `connect`, Ruby's `rack`, Clojure's `ring`. Lots of code (session management, authentication, etc.) could be shared across smaller frameworks, and allow for more experimentation while maintaining high cohesion and keeping things easy to start.
+3. Related to the web framework note above, a middleware standard
+   similar to Node's `connect`, Ruby's `rack`, Clojure's `ring`. Lots
+   of code (session management, authentication, etc.) could be shared
+   across smaller frameworks, and allow for more experimentation while
+   maintaining high cohesion and keeping things easy to start.
  
 Optimism
 =========
