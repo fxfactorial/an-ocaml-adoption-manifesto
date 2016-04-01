@@ -57,18 +57,18 @@ to pick OCaml (Some of these issues are being worked on).
 
 6. Namespaces. This is a problem right now, name something `dispatch.ml`
    and use a transitive dependency that also defines dispatch. Boom.
-   
+
 7. A friendlier attitude towards web development. Many people still
    think web coding is lame or not serious. That's wrong, web
    programming is amazing and much innovation comes out of web
-   programming. 
+   programming.
 
 8. Core libs like `Lwt` need love and care, and there are simply not
    enough hands to go around at the moment and that's a real shame
    since big projects like `mirage` are built on top of `Lwt`.
-   
+
 9. Marketing. Haskell blows us out of the water in name recognition,
-   and there's no reason why we can't have that level of recogition 
+   and there's no reason why we can't have that level of recogition
    as well.
 
 10. The build situation is pretty bad. We have too many build tools
@@ -81,6 +81,12 @@ to pick OCaml (Some of these issues are being worked on).
 12. A non-monadic HTTP library, maybe `cohttp.unix`.
 
 13. Multicore.
+
+14. A way to develop *native* mobile applications in OCaml, allowing to use
+    standard and huge native libraries in Swift, Java or C#. Mobile applications
+    became a real need for companies and it costs to have to hire several
+    developers for each platform. A compiler source to source with an
+    intermediate language between Swift, Java and C# could be a solution.
 
 Optimism
 =========
