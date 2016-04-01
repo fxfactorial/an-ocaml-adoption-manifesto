@@ -82,11 +82,19 @@ to pick OCaml (Some of these issues are being worked on).
 
 13. Multicore.
 
-14. A way to develop *native* mobile applications in OCaml, allowing to use
-    standard and huge native libraries in Swift, Java or C#. Mobile applications
-    became a real need for companies and it costs to have to hire several
-    developers for each platform. A compiler source to source with an
-    intermediate language between Swift, Java and C# could be a solution.
+
+Issues Noted by Others (Send a PR to add one!)
+====================================================
+
+1. A way to develop *native* mobile applications in OCaml, allowing to
+    use standard and huge native libraries in Swift, Java or
+    C#. Mobile applications became a real need for companies and it
+    costs to have to hire several developers for each platform. A
+    compiler source to source with an intermediate language between
+    Swift, Java and C# could be a solution.
+
+2. IDE support. Decent Intellij Idea or Eclipse plugin would
+   accelarate the adoption.
 
 Optimism
 =========
