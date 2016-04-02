@@ -101,6 +101,9 @@ Issues Noted by Others (Send a PR to add one!)
    of code (session management, authentication, etc.) could be shared
    across smaller frameworks, and allow for more experimentation while
    maintaining high cohesion and keeping things easy to start.
+
+4. Unicode strings type in standard library and module(s) to deal with
+   text encodings in general.
  
 Optimism
 =========
