@@ -104,6 +104,8 @@ Issues Noted by Others (Send a PR to add one!)
 
 4. Unicode strings type in standard library and module(s) to deal with
    text encodings in general.
+
+5. A working OCaml kernel for the Jupyter notebook.
  
 Optimism
 =========
