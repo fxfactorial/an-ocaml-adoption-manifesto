@@ -61,7 +61,9 @@ to pick OCaml (Some of these issues are being worked on).
 7. A friendlier attitude towards web development. Many people still
    think web coding is lame or not serious. That's wrong, web
    programming is amazing and much innovation comes out of web
-   programming.
+   programming. See [ocaml for web
+   programming](https://github.com/dannywillems/ocaml-for-web-programming) for
+   discussions, todo and tools about web programming in ocaml.
 
 8. Core libs like `Lwt` need love and care, and there are simply not
    enough hands to go around at the moment and that's a real shame
@@ -112,7 +114,7 @@ Issues Noted by Others (Send a PR to add one!)
    text encodings in general.
 
 5. A working OCaml kernel for the Jupyter notebook.
- 
+
 Optimism
 =========
 
