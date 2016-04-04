@@ -82,6 +82,12 @@ to pick OCaml (Some of these issues are being worked on).
 
 13. Multicore.
 
+14. Syntax. People often ask me when a `fun` ends and its hard to give
+    an answer other than "you just see it". Also the `in` of a let
+    binding confuses people.
+
+15. `Lwt` debugging/profiling; `strace` is not enough.
+
 
 Issues Noted by Others (Send a PR to add one!)
 ====================================================
