@@ -115,6 +115,8 @@ Issues Noted by Others (Send a PR to add one!)
 
 5. A working OCaml kernel for the Jupyter notebook.
 
+6. Tutorials for beginners from scratch with useful applications as exercices.
+
 Optimism
 =========
 
