@@ -113,13 +113,14 @@ Issues Noted by Others (Send a PR to add one!)
 
 5. A working OCaml kernel for the Jupyter notebook.
 
-6. Tutorials for beginners from scratch with useful applications as exercices.
+6. Tutorials for beginners from scratch with useful applications as
+   exercices.
 
-7. Create a repository listing useful libraries not yet developed. It could be
-   useful for student projects, GSOC or simply inspirations.
+7. Create a repository listing useful libraries not yet developed. It
+   could be useful for student projects, GSOC or simply inspirations.
 
-8. Tutorials in different languages, other than english. It is always more
-   confortable to learn in his own language.
+8. More tutorials in languages other than English (It is usually more
+   comfortable to learn in one's own language).
 
 Optimism
 =========
