@@ -117,6 +117,9 @@ Issues Noted by Others (Send a PR to add one!)
 
 6. Tutorials for beginners from scratch with useful applications as exercices.
 
+7. Create a repository listing useful libraries not yet developed. It could be
+   useful for student projects, GSOC or simply inspirations.
+
 Optimism
 =========
 
