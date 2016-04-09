@@ -122,6 +122,10 @@ Issues Noted by Others (Send a PR to add one!)
 8. More tutorials in languages other than English (It is usually more
    comfortable to learn in one's own language).
 
+9. Video tutorials. Sometimes, especially when we want to learn something new,
+   we don't want to read tutorials but we are interested to see someone in
+   action giving more explanations.
+
 Optimism
 =========
 
