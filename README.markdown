@@ -126,6 +126,9 @@ Issues Noted by Others (Send a PR to add one!)
    we don't want to read tutorials but we are interested to see someone in
    action giving more explanations.
 
+10. Confusion created by built-in standard library, OCaml Core and OCaml
+   Batteries.
+
 Optimism
 =========
 
