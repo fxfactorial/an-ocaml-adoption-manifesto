@@ -129,6 +129,12 @@ Issues Noted by Others (Send a PR to add one!)
 10. Confusion created by built-in standard library, OCaml Core and OCaml
    Batteries.
 
+11. Support system-wide installation of OPAM and its packages.
+    See https://github.com/ocaml/opam/issues/1950
+
+12. Availability on online platforms such as [CoCalc](https://cocalc.com).
+    See https://github.com/sagemathinc/cocalc/issues/175
+
 Optimism
 =========
 
