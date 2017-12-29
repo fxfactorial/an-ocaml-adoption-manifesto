@@ -112,6 +112,9 @@ Issues Noted by Others (Send a PR to add one!)
    text encodings in general.
 
 5. A working OCaml kernel for the Jupyter notebook.
+   Solved by [ocaml-jupyter](https://github.com/akabe/ocaml-jupyter).
+   Remaining issue: it is still hard to install system-wide,
+   since OPAM cannot be installed system-wide (see 11 below).
 
 6. Tutorials for beginners from scratch with useful applications as
    exercices.
@@ -132,8 +135,15 @@ Issues Noted by Others (Send a PR to add one!)
 11. Support system-wide installation of OPAM and its packages.
     See https://github.com/ocaml/opam/issues/1950
 
-12. Availability on online platforms such as [CoCalc](https://cocalc.com).
-    See https://github.com/sagemathinc/cocalc/issues/175
+12. Advertize, expand and improve availability on online platforms.
+    For example, OCaml is available on [CoCalc](https://cocalc.com), see
+    [software available on CoCalc](https://cocalc.com/doc/software-executables.html).
+    This makes it easy for people to use OCaml without having to install it.
+    Sadly OCaml-Jupyter is not available on CoCalc, because of issue 11 above,
+    see [CoCalc#175](https://github.com/sagemathinc/cocalc/issues/175).
+
+13. Provide a collection of examples and tutorials as Jupyter notebooks,
+    using OCaml-Jupyter, the OCaml kernel for Jupyter (see point 5 above).
 
 Optimism
 =========
